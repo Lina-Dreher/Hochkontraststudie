@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./vendor/bootstrap.min.css" />
+        <link href="./vendor/bootstrap.min.css" rel="stylesheet">
+        <script src="./vendor/bootstrap.bundle.min.js"></script>
+        <title>Bookmarklets</title>
+</head>
+
+<body class=" col-sm-12 p-3 m-2 bodycolor">
+        <h1 tabindex="1">Bookmarklets zur Simulation von Kontrastmodi</h1>
+        <p tabindex="1"><strong>Achung:</strong> Keine Gewähr für Richtigkeit und Vollständigkeit der Bookmarklets.</br>
+                Die Kontrastmodi der Betriebssysteme sind ständigen Änderungen unterworfen, diese Bookmarklets geben
+                möglicherweise einen veralteten Stand wieder.
+        </p>
+        <p tabindex="1"><strong>Versionierung:</strong> Die Bookmarklets wurden auf Grundlage von Test zu dem Zeitpunkt
+                Juni-September 2022 erstellt.
+        </p>
+        <div tabindex="1" class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                        <h2 tabindex="1" class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <strong>Folgende Betriebssysteme wurden dazu verwendet:</strong>
+                                </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                        <div class="col-sm-12 p-2 m-2">
+                                                <table
+                                                        class=" table table-bordered table-hover table-responsive col-sm-6 p-0 m-0">
+                                                        <tr>
+                                                                <th tabindex="1" class="col-sm-3 p-2 m-0">Betriebssystem
+                                                                </th>
+                                                                <th tabindex="1" class="col-sm-3 p-2 m-0">Browser</th>
+                                                        </tr>
+
+                                                        <tbody>
+                                                                <tr>
+                                                                        <td tabindex="1"
+                                                                                class="col-sm-3 pr-4 pl-2 pb-2 m-0">
+                                                                                Windows 11 </td>
+                                                                        <td tabindex="1"
+                                                                                class="col-sm-3 pr-4 pl-2 pb-2 m-0">
+                                                                                Chrome, Edge,
+                                                                                Firefox</td>
+                                                                </tr>
+                                                                <tr>
+                                                                        <td tabindex="1"
+                                                                                class="col-sm-3 pr-4 pl-2 pb-2 m-0">
+                                                                                macOS Big Sur </td>
+                                                                        <td tabindex="1"
+                                                                                class="col-sm-3 pr-4 pl-2 pb-2 m-0">
+                                                                                Safari</td>
+                                                                </tr>
+                                                                <tr>
+                                                                        <td tabindex="1"
+                                                                                class="col-sm-3 pr-4 pl-2 pb-2 m-0">
+                                                                                Android 12
+                                                                                Betriebssystem
+                                                                        </td>
+                                                                        <td tabindex="1"
+                                                                                class="col-sm-3 pr-4 pl-2 pb-2 m-0">
+                                                                                Chrome</td>
+                                                                </tr>
+                                                                <tr>
+                                                                        <td tabindex="1"
+                                                                                class="col-sm-3 pr-4 pl-2 pb-2 m-0">
+                                                                                iOS-Betriebssystem
+                                                                                Version
+                                                                                14.2
+                                                                        </td>
+                                                                        <td tabindex="1"
+                                                                                class="col-sm-3 pr-4 pl-2 pb-2 m-0">
+                                                                                Safari</td>
+                                                                </tr>
+                                                        </tbody>
+                                                </table>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+        </div>
+        <br />
+        <h2 tabindex="1">Anwendung der Bookmarklets:</h2>
+        <p tabindex="1">Die Links (Linksklick mit der Maus auf den Link und erst in der Bookmarkletsleiste loslassen) in
+                das Menü des Browsers ziehen und schon können sie auf jeder
+                Website verwendet werden. Dazu einfach auf das Bookmarklet klicken.</p>
+        <h2 tabindex="1">Check contrasts / Kontraste prüfen<sup>5</sup></h2>
+        <p>Das Bookmarklet überprüft Websites auf ausreichend Kontraste, auch für die unten aufgelisteten Kontrastmodi
+                der
+                Betriebssysteme. Seitenelemente, für die es in einem der Kontrastmodi oder generell ein Problem gibt,
+                werden
+                umrandet (je nach Hintergrundfarbe Rot, Schwarz oder Blau) und Informationen zu den Kontrastproblemen
+                wird über das title-Attribut ausgegeben.<br />
+                Vererbte Hintergrundfarben aus Elternelementen konnten in Ausnahmefällen nicht ausgelesen werden, die
+                errechneten Kontraste sind in diesen Fällen nicht korrekt.<br />
+
+                <br><strong>Alle Kontrastangaben für den Browser Firefox wurden aus dem Check Contrasts Bookmarklet
+                        ausgeschlossen.</strong> Um die Kontraste für Firefox zu testen muss auf die unten aufgelisteten
+                Bookmarklets zurückgegriffen werden.
+        <div tabindex="1" class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                        <h2 tabindex="1" class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <strong>Erklärung Verhalten Firefox:</strong>
+                                </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                        <div class="col-sm-12 p-2 m-2">
+                                                Die Farben für Elemente in dem Browser Firefox hängen von den durch den
+                                                Programmierer definierten Farben auf der Website ab. D.h.
+                                                wenn auf einer Website der Body eine Hintergrundfarbe und Schriftfarbe
+                                                definiert bekommen hat, werden
+                                                diese beim aktivieren eines folgender auf dem Windows Betriebssystem
+                                                hinterlegten Kontrastmodis
+                                                (Wasser, Wüste, Abenddämmerung,
+                                                Nachthimmel) nicht weiter verändert. Fehlt die Farbdefinition, werden
+                                                die Farben beeinflusst.<br /> Das macht ein generelles prüfen deutlich
+                                                schwieriger als für die anderen Browser.
+                                                In den Browsern Chrome und Edge werden einfach alle Farben mit denen aus
+                                                dem gewählten Kontrastmodus
+                                                überschrieben. <br />
+                                                Kann genauer in der Bachelorarbeit nachgelesen werden oder durch die
+                                                unten verlinkten Bookmarklets getestet werden.
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <br />
+
+        <strong>
+                <p tabindex="1">Bookmarklet: <a
+                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/checkContrasts.js'; document.body.appendChild(script); })();">
+                                Check Contrasts</a></p>
+        </strong>
+        <h2 tabindex="1">Kontraste auf Betriebssystemen und Browsern</h2>
+        <p tabindex="1">Kontraste auf Betriebssysteme und Browser Überprüfen</p>
+        <h3 tabindex="1">Erklärung zu den Kontrastmodi:</h3>
+        <br />
+        <div class="accordion" id="accordionExample">
+                <div tabindex="1" class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <strong>Tageslichtmodus</strong>
+                                </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                        Der Tageslichtmodus ist der Default Modus (hell Modus), der in den
+                                        meisten Betriebssystemen standdardmäßig als Grundeinstellung dient. Hier werden
+                                        Farben auf den Standardwert des Browsers gesetzt (Firefox hat z.B. andere
+                                        Linkfarben als Chrome), wenn sie den Default Wert haben. D.h. der Modus beachtet
+                                        nur Elemente, für die kein Farbwert definiert wurde. <strong>Er sollte daher
+                                                nicht nach einem Bookmarklet verwendet werden, das für alle Elemente
+                                                Farben setzt. Am besten die Seite vor dem Anwenden des Bookmarklets
+                                                einmal neu laden, um unerwünschte Verfälschungen zu vermeiden.</strong>
+                                </div>
+                        </div>
+                </div>
+                <div tabindex="1" class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <strong>Kontrastmodi: Wasser, Wüste, Nachthimmel, Abenddämmerung</strong>
+                                </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                        Die Kontrastmodi Wasser, Wüste, Nachthimmel und Abenddämmerung können auf
+                                        Windows in den Einstellungen gefunden werden. Sie verändern die Farben für
+                                        Hintergrund- und Schriftfarben nach ihrem Design. Dabei ist die Umsetzung
+                                        browserabhängig. Während es für Chrome (Windows) immer die Farben aus dem
+                                        jeweiligen Kontrast umsetzt, werden bei Firefox (Windows) Farbeinstellungen des
+                                        Browsers und der Website berücksichtigt.
+                                </div>
+                        </div>
+                </div>
+                <div tabindex="1" class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <strong>Kontrast (Stufe 7)</strong>
+                                </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                        Bei Mac OS können verschiedene Kontraststufen per Regler eingestellt werden.
+                                        Hier wurde
+                                        entschieden, nur
+                                        die höchste Stufe, <strong>Maximaler Kontrast (Stufe 7)</strong>, zu simulieren.
+                                        Leider konnte der Kontrast nicht ganz korrekt simuliert werden.
+                                        Abweichungen betreffen vor allem die Hintergrundfarben (Transparenzen).
+                                </div>
+                        </div>
+                </div>
+
+                <div tabindex="1" class="accordion-item">
+                        <h2 tabindex="1" class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">
+                                        <strong>Invertiert Modus </strong>
+                                </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                        Der Invertiert Modus ist auf jedem der getesteten Betriebssysteme vorhanden. Bei
+                                        Android weicht die Usetzung von denen der anderen ab. Er wurde im Rahmen dieses
+                                        Projektes
+                                        nicht umgesetzt.
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <br />
+        <table class="table table-hover table-bordered table-responsive">
+                <thead class="col-sm-12 p-0 m-0">
+                        <tr class="col-sm-12 p-0 m-0">
+                                <th class="col-sm-1 pr-4 pl-2 pb-2 m-0">Betriebssystem</br>& Browser</th>
+                                <th class="col-sm-1 pr-4 pl-2 pb-2 m-0">Tageslicht / Default Kontrast</th>
+                                <th class="col-sm-1 pr-4 pl-2 pb-2 m-0">Wasser</th>
+                                <th class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nachthimmel</th>
+                                <th class="col-sm-1 pr-4 pl-2 pb-2 m-0">Abenddämmerung</th>
+                                <th class="col-sm-1 pr-4 pl-2 pb-2 m-0">Wüste</th>
+                                <th class="col-sm-1 pr-4 pl-2 pb-2 m-0">Invertiert</th>
+                                <th class="col-sm-1 pr-4 pl-2 pb-2 m-0">Maximaler Kontrast (Stufe 7)</th>
+                        </tr>
+                </thead>
+
+                <tbody>
+                        <tr>
+                                <th tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Windows Chrome </th>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/chrome/windowsChromeTageslicht.js'; document.body.appendChild(script); })();">Tageslichtmodus</br>
+                                                Windows/Chrome</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/chrome/windowsChromeWasser.js'; document.body.appendChild(script); })();">Wasser</br>
+                                                Windows/Chrome</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/chrome/windowsChromeNachthimmel.js'; document.body.appendChild(script); })();">Nachthimmel</br>
+                                                Windows/Chrome</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/chrome/windowsChromeAbenddaemmerung.js'; document.body.appendChild(script); })();">Abenddämmerung</br>
+                                                Chrome/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/chrome/windowsChromeWueste.js'; document.body.appendChild(script); })();">Wüste</br>
+                                                Chrome/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/chrome/windowsChromeInvertiert.js'; document.body.appendChild(script); })();">Invertiert</br>
+                                                Chrome/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                        </tr>
+                        <tr>
+                                <th tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Windows Firefox<sup>4</sup></th>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/firefox/windowsFirefoxTageslicht.js'; document.body.appendChild(script); })();">Tageslichtmodus</br>
+                                                Firefox/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/firefox/windowsFirefoxWasser.js'; document.body.appendChild(script); })();">Wasser
+                                                </br>
+                                                Firefox/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/firefox/windowsFirefoxNachthimmel.js'; document.body.appendChild(script); })();">Nachthimmel</br>
+                                                Firefox/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/firefox/windowsFirefoxAbenddaemmerung.js'; document.body.appendChild(script); })();">Abenddämmerung</br>
+                                                Firefox/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/firefox/windowsFirefoxWueste.js'; document.body.appendChild(script); })();">Wüste</br>
+                                                Firefox/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/firefox/windowsFirefoxInvertiert.js'; document.body.appendChild(script); })();">Invertiert</br>
+                                                Firefox/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                        </tr>
+                        <tr>
+                                <th tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Windows Edge </th>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/edge/windowsEdgeTageslicht.js'; document.body.appendChild(script); })();">Tageslichtmodus</br>
+                                                Edge/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/edge/windowsEdgeWasser.js'; document.body.appendChild(script); })();">Wasser</br>
+                                                Edge/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/edge/windowsEdgeNachthimmel.js'; document.body.appendChild(script); })();">Nachthimmel</br>
+                                                Edge/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/edge/windowsEdgeAbenddaemmerung.js'; document.body.appendChild(script); })();">Abenddämmerung</br>
+                                                Edge/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/edge/windowsEdgeWueste.js'; document.body.appendChild(script); })();">Wüste</br>
+                                                Edge/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/windows/edge/windowsEdgeInvertiert.js'; document.body.appendChild(script); })();">Invertiert</br>
+                                                Edge/Windows</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                        </tr>
+                        <tr>
+                                <th tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Mac OS Safari </th>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/macOs/macOsTageslicht.js'; document.body.appendChild(script); })();">Tageslichtmodus</br>
+                                                Mac OS/Safari</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/macOs/macOsInvertiert.js'; document.body.appendChild(script); })();">Invertiert</br>
+                                                Mac OS/Safari</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/macOs/macOSmaximalKontrast.js'; document.body.appendChild(script); })();">Maximaler
+                                                Kontrast</br>
+                                                Mac OS</a><sup>3</sup></td>
+
+                        </tr>
+                        <tr>
+                                <th tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Android Chrome </th>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/android/androidTageslicht.js'; document.body.appendChild(script); })();">Tageslichtmodus</br>
+                                                Android/Chrome</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht implementiert<sup>2</sup>
+                                </td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                </td>
+                        </tr>
+                        <tr>
+                                <th tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">iOS Safari </th>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/ios/iosTageslicht.js'; document.body.appendChild(script); })();">Tageslichtmodus</br>
+                                                iOS/Safari</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0"><a
+                                                href="javascript:(function () { let script = document.createElement('script'); script.src = 'https://student.bf-lernen.de/contrast/js/macOs/macOsInvertiert.js'; document.body.appendChild(script); })();">Invertiert</br>
+                                                iOS/Safari</a></td>
+                                <td tabindex="1" class="col-sm-1 pr-4 pl-2 pb-2 m-0">Nicht anwendbar<sup>1</sup></td>
+
+                        </tr>
+                </tbody>
+        </table>
+        <p tabindex="1"> <sup>1</sup>Diesen Kontrast gibt es in dem Betriebssystem nicht und wurde
+                daher nicht als Bookmarklet
+                abgebildet</p>
+        <p tabindex="1"><sup>2</sup>Diesen Kontrast gibt es in dem Betriebssystem, wurde aber nicht
+                als Bookmarklet umgesetzt</p>
+        <p tabindex="1"><sup>3</sup>Achtung: Dieses Bookmarklet gibt den Kontrast nur annähernd
+                wieder, Abweichungen betrifft
+                vor allem die Hintergrundfarben (Transparenzen)</p>
+        <p tabindex="1"><sup>4</sup>Bei Firefox werden Farbeinstellungen berücksichtigt, die im
+                Browser vorgenommen wurden. Für die Bookmarklets wird von den Defaultwerten ausgegangen.</p>
+
+
+
+        <div>
+                <p tabindex="1"><sup>5</sup>Das Check Contrasts Bookmarklet geht für jedes Modul jeden der oben
+                        aufgelistetet
+                        verfügbaren Kontrastmodi durch und
+                        überprüft entsprechend den Prüfschritten „9.1.4.1 Ohne Farben nutzbar“ und „9.1.4.3 Kontraste
+                        von Texten ausreichend“ aus dem <a tabindex="1" target="_blank"
+                                href="https://www.bitvtest.de/bitv_test.html">BIK
+                                BITV-Test</a> den Kontrast der Elemente zum Hintergrund, bzw. bei Links auch zur
+                        umliegenden Schrift:</p>
+                <ul tabindex="1">
+                        <li tabindex="1">„Links im Fließtext sind nicht nur farblich abgesetzt, sondern zusätzlich
+                                unterstrichen, gefettet, invertiert oder mit einer Markierung versehen.
+                                Ausnahme: Das Kontrastverhältnis zwischen Linkfarbe und umgebender Textfarbe
+                                ist 3:1 oder besser. In diesem Fall kann im Ausgangszustand auf die zusätzliche
+                                Hervorhebung verzichtet werden. Die Links müssen dann aber bei Fokuserhalt
+                                zusätzlich hervorgehoben werden“ (Prüfschritt „9.1.4.1 Ohne Farben nutzbar“).
+                        </li>
+                        <li tabindex="1">„Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter Schrift)
+                                prüfen,
+                                ob das Kontrastverhältnis bei 4,5:1 oder größer liegt. Für große Schriften
+                                prüfen, ob das Kontrastverhältnis bei 3:1 oder größer liegt.“</li>
+                        <li tabindex="1">„Die Prüfung der Kontraste für normalen Text und großen Text orientiert sich an
+                                den
+                                gemessenen Werten der Schriftgröße in Pixel, denn eine Messung der tatsächlich
+                                dargestellten Punktgröße auf dem Bildschirm mit einem Typometer ist nicht
+                                praktikabel. Bei einer Bildschirmauflösung von 96 dpi entsprechen 18 Punkt etwa
+                                24 Pixeln, 14 Punkt entsprechen etwa 18,7 Pixeln.“ (Prüfschritt „9.1.4.3
+                                Kontraste von Texten ausreichend“).</li>
+                </ul>
+        </div>
+        <br />
+        <h2>Testwebsite</h2>
+        <div tabindex="1">Hier ist eine <a target="_blank" href="./html/BackgroundcolorColor.html"
+                        tabindex="1">Testwebsite</a>. Anhand
+                dieser können die Bookmarklets getestet werden. Die Seite bringt verschiedene Kombinationen zu Vorder-
+                und Hintergundfarben auf ihren Seiten mit, wobei der Seitenaufbau immer derselbe ist, für einen besseren
+                Vergleich. Eine frühere Version der Seite wurde auch in der Bachelorarbeit zum Testen genutzt.</div>
+        <br />
+        <div><a href="./html/Erklaerung.html" target="_blank">Erklärung zur Testwebsite</a> </div>
+        <br />
+
+        <div tabindex="1">Copyright 2023 <a
+                        href="https://digitalisierung.hdm-stuttgart.de/barrierefreiheit/">Kompetenzzentrum für digitale
+                        Barrierefreiheit</a></br>
+                created by Lina Dreher<br />
+
+                Licensed under the Apache License, Version 2.0 (the "License");
+                you may not use this file except in compliance with the License.
+                You may obtain a copy of the License at
+                <a target="_blank" tabindex="1" href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 Lizenz</a>
+                Unless required by applicable law or agreed to in writing, software
+                distributed under the License is distributed on an "AS IS" BASIS,
+                WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+                See the License for the specific language governing permissions and
+                limitations under the License.
+        </div>
+        </div>
+
+        <footer id="legal">
+                <ul>
+                        <li>
+                                <a href="https://gpii.de/legal/de/impressum.html">Impressum</a>
+                        </li>
+                        <li>
+                                <a href="https://gpii.de/legal/de/datenschutz.html">Datenschutz</a>
+                        </li>
+                </ul>
+        </footer>
+</body>
+
+
+</html>

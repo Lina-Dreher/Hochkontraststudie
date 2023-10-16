@@ -1,0 +1,211 @@
+/*allgemein*/
+
+    /*navigation*/
+    nav>div> {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav>div>ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /*Ende Navigation*/
+
+    /*Moduleigenschaften*/
+    .hintergrundfarbeDiv {
+        background-color: red;
+    }
+
+    .backgroundG{
+        background: purple;
+    }
+    
+    .backgroundImg {
+        background-image: url("../img/IMG_20210905_140419_klein.jpg");
+    }
+
+    .backgroundImgB{
+        background: url("../img/IMG_20210905_140419_klein.jpg");
+    }
+
+    /*Elementeigenschaften*/
+    .tansparenzElement {
+        background: rgba(255, 255, 255, 0.6);
+    }
+    
+    .tansparenzElementB {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .colorHsla {
+        color: hsla(0, 0%, 100%, 0.5);
+    }
+    
+    .colorHslaB {
+        background-color: hsla(0, 0%, 100%, 0.5);
+    }
+
+    .colorHslaBackground {
+        background: hsla(0, 0%, 100%, 0.5);
+    }
+
+    .colorTransparenz {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .hintergrundfarbe {
+        background-color: cyan;
+    }
+
+    .hover:hover {
+        background-color: yellow;
+    }
+
+    .hover:visited{
+        color: darkgreen;
+    }    
+
+    .bildmitbildunterschrift{
+        position: relative;
+    }
+
+    .bildmitbildunterschrift img {
+        display: block; 
+    }
+
+    .spanIMG{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        line-height: 2em;
+        text-align: center;
+    }
+
+    .spanIMGO{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        line-height: 2em;
+        text-align: center;
+    }
+
+    .spanHsla {
+        background-color: hsla(0, 0%, 100%, 0.5);
+    }
+
+    .colorDiv{
+        color: darkorchid;
+    }
+
+    .farbPattern{
+        background: repeating-linear-gradient(45deg, transparent, transparent 10px, currentColor 10px, currentColor calc(2 * 10px));
+    }
+    
+    .farbPatternBunt{
+        background-color: #FF8710;
+    }
+    
+    .farbPatternColor{
+        color: #E7393F;
+    }
+    
+    .patterntansparenz{
+        color: black;
+        background-color: rgba(255, 255, 255, 0.6);
+    }  
+
+    .patterntansparenzB{
+        color: black;
+        background-color: hsla(0, 0%, 100%, 0.5);
+    } 
+    
+    .patterntansparenzHsla{
+        color: black;
+        background: rgba(255, 255, 255, 0.6);
+    } 
+
+    .patterntansparenzHslaB {
+        color: black;
+        background: hsla(0, 0%, 100%, 0.5);
+    }
+
+    .backgroundDiv {
+        background: green;
+    }
+
+    .small{
+        font-size: 6px; 
+        font-weight: 300;
+    }
+
+
+/*Seite BackgroundcolorColor*/
+.bodycolor {
+    background-color: white;
+    color: black;
+}
+
+.black{
+    color: black;
+    text-decoration: none;
+}
+
+.black:visited{
+    color: black;
+    text-decoration: none;
+}
+
+/*Seite Backgroundcolor*/
+.bodyBackgroundColor{
+    background-color: white;
+}
+
+/*Seite Color*/
+.colorDefiniert {
+    color: black;
+}
+
+/*Seite Background*/
+.backgroundBody {
+    background: white;
+}
+
+/*Seite BackgroundAndColor*/
+.colorbackground{
+    color: black;
+    background: white;
+}
+
+@media screen and (max-width: 1273px) {
+    /*navigation*/
+    nav>div> {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav>div>ul {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /*Ende Navigation*/
+}
+
+footer#legal {
+    margin-top: 2em;
+    border-top: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer ul {
+    list-style-type: none;
+}
+footer ul li {
+    display:inline;
+}
+footer ul li:not(:first-of-type) {
+    margin-left: 1em;
+} 

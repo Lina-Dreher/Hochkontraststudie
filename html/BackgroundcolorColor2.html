@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/colorDefenitonTest.css">
+    <title>Hochkontraststudie | Background-color und Color</title>
+    <meta name="description" content="Beispielseite für Vorder- und Hintergrundfarben">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul>
+                    <li><a aria-current="page" aria-disabled="true" href="./BackgroundcolorColor.html"
+                            tabindex="1">Background-color und Color</a></li>
+                    <li><a href="./Backgroundcolor.html" tabindex="2">Background-color, keine Color</a></li>
+                    <li><a href="./Color.html" tabindex="3">Color, keine Background-color</a></li>
+                    <li><a href="./Undefined.html" tabindex="4">Weder Color noch Background-color</a></li>
+                    <li><a href="./Background.html" tabindex="5">Background, ohne Color</a></li>
+                    <li><a href="./BackgroundAndColor.html" tabindex="6">Background und Color</a></li>
+                    <li><a aria-current="page" aria-disabled="true" href="./BackgroundcolorColor2.html" tabindex="7">Background und Color 2</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1>Background-Color & Color 2 | Hochkontraststudie</h1>
+    <aside>
+        <ul>
+            <li>Im Body Background-color definiert</li>
+            <li>Color im Body definiert</li>
+        </ul>
+        <h2>Informationenen zu den Links:</h2>
+        <p>Um sie auf unvisited zu setzten, in den Browsereinstelleungen den Browserverlauf löschen. Unter Chome findet
+            man das z.B. unter Menü/WEitere Tools/ Browserdaten löschen/Browserverlauf</p>
+    </aside>
+    <main>
+        <div>
+            <br />
+            <p class="ttt" style="background-color: black;">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit</p>
+            <h2><em>1. Modul/</em> Color und Background-color definiert für Body</h2>
+            <div><strong>1. Element/</strong> Textelement ohne Eigenschaften <br />Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover">Hover</a> <strong><a href="#" class="hover">Hover</a></strong> <a
+                    href="#" class="hover" style="text-decoration: none;">Hover</a> <i><a href="#" class="hover"
+                        style="text-decoration: none;">Hover</a></i> <a href="#"
+                    style="text-decoration: none; color: black;">Hover</a>
+                Amet cursus sit amet dictum sit. Massa sed elementum tempus egestas sed sed risus. Donec et odio
+                pellentesque diam volutpat commodo sed egestas egestas. Quis risus sed vulputate odio ut.
+                Ultricies mi
+                eget mauris pharetra et ultrices. Magnis dis parturient montes nascetur ridiculus. Nulla
+                facilisi cras
+                fermentum odio eu feugiat pretium nibh. Faucibus in ornare quam viverra orci. Mauris vitae
+                ultricies leo
+                integer malesuada. A iaculis at erat pellentesque. Vivamus at augue eget arcu dictum varius duis
+                at
+                consectetur. Urna molestie at elementum eu.</div>
+            <div class="small">Font-size: 6px, font-weight: 300; Geprüft wird aber auch noch auf die ratio mit den
+                Farben aus den jeweiligen Kontrastmodi, das muss mindestens bei 4.5 liegen</div>
+            <h3 class="colorDiv">2. Element/ Color definiert aktuelles div <a href="#" class="hover colorDiv">Hover</a>
+            </h3>
+            <h3 class="hintergrundfarbe">3. Element/ Background-color im aktuellen Element <a href="#"
+                    class="hover hintergrundfarbe">Hover</a></h3>
+            <h3 class="hintergrundfarbe colorDiv">4. Element/ Background-color und Color im aktuellen Element
+                definiert <a href="#" class="hover hintergrundfarbe colorDiv">Hover</a></h3>
+            <h3 class="backgroundDiv">5. Element/Background statt Background-color im aktuellen Element gesetzt <a
+                    href="#" class="hover backgroundDiv">Hover</a></h3>
+            <h3 class="backgroundDiv colorDiv">6. Element/ Background statt Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover backgroundDiv colorDiv">Hover</a></h3>
+            <h3 style="color: cyan;">6. Element/ Background statt Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover backgroundDiv colorDiv">Hover</a></h3>
+            <h3 class="colorTransparenz ">7. Element/ Transparenz Color für aktuelles Element definiert <a href="#"
+                    class="hover colorTransparenz ">Hover</a></h3>
+            <h3 class="tansparenzElementB ">8. Element/ Transparenz Background-color für aktuelles Element definiert <a
+                    href="#" class="hover tansparenzElementB">Hover</a></h3>
+            <h3 class="tansparenzElementB colorDiv">9. Element/ Transparenz Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover tansparenzElementB colorDiv">Hover</a></h3>
+            <h3 class="tansparenzElement">10. Element/ Transparenz Background im aktuelles Element <a href="#"
+                    class="hover tansparenzElement">Hover</a></h3>
+            <h3 class="tansparenzElement colorDiv">11. Element/ Transparenz Background und Color im aktuellen
+                Element definiert <a href="#" class="hover tansparenzElement colorDiv">Hover</a></h3>
+            <h3 class="colorHsla"> 12. Element/ Transparenz Color hsla für aktuelles Element definiert <a href="#"
+                    class="hover colorHsla">Hover</a></h3>
+            <h3 class="colorHslaB">13. Element/ Transparenz Background-color hsla für aktuelles Element definiert <a
+                    href="#" class="hover colorHslaB">Hover</a></h3>
+            <h3 class="colorHslaB colorDiv">14. Element/ Transparenz Background-color hsla und Color für aktuelles
+                Element
+                definiert <a href="#" class="hover colorHslaB colorDiv">Hover</a></h3>
+            <h3 class="colorHslaBackground">15. Element/ Transparenz Background hsla für aktuelles Element definiert <a
+                    href="#" class="hover colorHslaBackground">Hover</a></h3>
+            <h3 class="colorHslaBackground colorDiv">16. Element/ Transparenz Background hsla und Color für aktuelles
+                Element definiert <a href="#" class="hover colorHslaBackground colorDiv">Hover</a></h3>
+            <h3>17. Element/ Background als Farbpattern gesetzt:</h3>
+            <div class="farbPattern">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern">Hover</a></div>
+            <h3>18. Element/ Background als Farbpattern und Background-color gesetzt:</h3>
+            <div class="farbPattern farbPatternBunt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern farbPatternBunt">Hover</a></div>
+            <h3>19. Element/ Background als Farbpattern, Background-color und Color gesetzt</h3>
+            <div class="farbPattern farbPatternBunt farbPatternColor">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern farbPatternBunt farbPatternColor">Hover</a></div>
+            <h3>20. Element/ Pattern als Background gesetzt mit Backgound-color und Color, Schrift mit Color und
+                Transparenz abgesetzt
+            </h3>
+            <div class="farbPattern farbPatternBunt farbPatternColor">
+                <p class="patterntansparenz"><strong>20.a Element/</strong> Transparenz als Background-color <a href="#"
+                        class="hover ">Hover</a></p>
+                <p class="patterntansparenzB"><strong>20.b Element/</strong> Transparenz als Background <a href="#"
+                        class="hover ">Hover</a></p>
+                <p class="patterntansparenzHsla"><strong>20.c Element/</strong> Transparenz als Background-color hsla <a
+                        href="#" class="hover ">Hover</a></p>
+                <p class="patterntansparenzHslaB"><strong>20.d Element/</strong> Transparenz als Background hsla <a
+                        href="#" class="hover ">Hover</a></p>
+            </div>
+            <div>
+                <h3>21. Schriftgrafiken mit transparentem Hintergrund</h3>
+                <img src="../img/Schriftgrafik_groß.png" width="49%">
+                <img src="../img/Schriftgrafik_v2_groß.png" width="49%">
+            </div>
+            <br />
+        </div>
+        <br />
+        <div class="hintergrundfarbeDiv">
+            <br />
+            <p class="ttt" style="background-color: black;">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit</p>
+            <h2><em></em>2. Modul/</em> Color und Background-color definiert für Body sowie definierte
+                Background-color im aktuellen Modul</h2>
+            <div><strong>1. Element/</strong> Textelement ohne Eigenschaften <br />Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover">Hover</a> <strong><a href="#" class="hover">Hover</a></strong> <a
+                    href="#" class="hover" style="text-decoration: none;">Hover</a> <i><a href="#" class="hover"
+                        style="text-decoration: none;">Hover</a></i> <a href="#"
+                    style="text-decoration: none; color: black;">Hover</a>
+                Amet cursus sit amet dictum sit. Massa sed elementum tempus egestas sed sed risus. Donec et odio
+                pellentesque diam volutpat commodo sed egestas egestas. Quis risus sed vulputate odio ut.
+                Ultricies mi
+                eget mauris pharetra et ultrices. Magnis dis parturient montes nascetur ridiculus. Nulla
+                facilisi cras
+                fermentum odio eu feugiat pretium nibh. Faucibus in ornare quam viverra orci. Mauris vitae
+                ultricies leo
+                integer malesuada. A iaculis at erat pellentesque. Vivamus at augue eget arcu dictum varius duis
+                at
+                consectetur. Urna molestie at elementum eu.</div>
+            <div class="small">Font-size: 6px, font-weight: 300; Geprüft wird aber auch noch auf die ratio mit den
+                Farben aus den jeweiligen Kontrastmodi, das muss mindestens bei 4.5 liegen</div>
+            <h3 class="colorDiv">2. Element/ Color definiert aktuelles div <a href="#" class="hover colorDiv">Hover</a>
+            </h3>
+            <h3 class="hintergrundfarbe">3. Element/ Background-color im aktuellen Element <a href="#"
+                    class="hover hintergrundfarbe">Hover</a></h3>
+            <h3 class="hintergrundfarbe colorDiv">4. Element/ Background-color und Color im aktuellen Element
+                definiert <a href="#" class="hover hintergrundfarbe colorDiv">Hover</a></h3>
+            <h3 class="backgroundDiv">5. Element/Background statt Background-color im aktuellen Element gesetzt <a
+                    href="#" class="hover backgroundDiv">Hover</a></h3>
+            <h3 class="backgroundDiv colorDiv">6. Element/ Background statt Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover backgroundDiv colorDiv">Hover</a></h3>
+            <h3 style="color: cyan;">6. Element/ Background statt Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover backgroundDiv colorDiv">Hover</a></h3>
+            <h3 class="colorTransparenz ">7. Element/ Transparenz Color für aktuelles Element definiert <a href="#"
+                    class="hover colorTransparenz ">Hover</a></h3>
+            <h3 class="tansparenzElementB ">8. Element/ Transparenz Background-color für aktuelles Element definiert <a
+                    href="#" class="hover tansparenzElementB">Hover</a></h3>
+            <h3 class="tansparenzElementB colorDiv">9. Element/ Transparenz Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover tansparenzElementB colorDiv">Hover</a></h3>
+            <h3 class="tansparenzElement">10. Element/ Transparenz Background im aktuelles Element <a href="#"
+                    class="hover tansparenzElement">Hover</a></h3>
+            <h3 class="tansparenzElement colorDiv">11. Element/ Transparenz Background und Color im aktuellen
+                Element definiert <a href="#" class="hover tansparenzElement colorDiv">Hover</a></h3>
+            <h3 class="colorHsla"> 12. Element/ Transparenz Color hsla für aktuelles Element definiert <a href="#"
+                    class="hover colorHsla">Hover</a></h3>
+            <h3 class="colorHslaB">13. Element/ Transparenz Background-color hsla für aktuelles Element definiert <a
+                    href="#" class="hover colorHslaB">Hover</a></h3>
+            <h3 class="colorHslaB colorDiv">14. Element/ Transparenz Background-color hsla und Color für aktuelles
+                Element
+                definiert <a href="#" class="hover colorHslaB colorDiv">Hover</a></h3>
+            <h3 class="colorHslaBackground">15. Element/ Transparenz Background hsla für aktuelles Element definiert <a
+                    href="#" class="hover colorHslaBackground">Hover</a></h3>
+            <h3 class="colorHslaBackground colorDiv">16. Element/ Transparenz Background hsla und Color für aktuelles
+                Element definiert <a href="#" class="hover colorHslaBackground colorDiv">Hover</a></h3>
+            <h3>17. Element/ Background als Farbpattern gesetzt:</h3>
+            <div class="farbPattern">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern">Hover</a></div>
+            <h3>18. Element/ Background als Farbpattern und Background-color gesetzt:</h3>
+            <div class="farbPattern farbPatternBunt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern farbPatternBunt">Hover</a></div>
+            <h3>19. Element/ Background als Farbpattern, Background-color und Color gesetzt</h3>
+            <div class="farbPattern farbPatternBunt farbPatternColor">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern farbPatternBunt farbPatternColor">Hover</a></div>
+            <h3>20. Element/ Pattern als Background gesetzt mit Backgound-color und Color, Schrift mit Color und
+                Transparenz abgesetzt
+            </h3>
+            <div class="farbPattern farbPatternBunt farbPatternColor">
+                <p class="patterntansparenz"><strong>20.a Element/</strong> Transparenz als Background-color <a href="#"
+                        class="hover ">Hover</a></p>
+                <p class="patterntansparenzB"><strong>20.b Element/</strong> Transparenz als Background <a href="#"
+                        class="hover ">Hover</a></p>
+                <p class="patterntansparenzHsla"><strong>20.c Element/</strong> Transparenz als Background-color hsla <a
+                        href="#" class="hover ">Hover</a></p>
+                <p class="patterntansparenzHslaB"><strong>20.d Element/</strong> Transparenz als Background hsla <a
+                        href="#" class="hover ">Hover</a></p>
+            </div>
+            <div>
+                <h3>21. Schriftgrafiken mit transparentem Hintergrund</h3>
+                <img src="../img/Schriftgrafik_groß.png" width="49%">
+                <img src="../img/Schriftgrafik_v2_groß.png" width="49%">
+            </div>
+            <br />
+        </div>
+        <br />
+        <div class="backgroundG">
+            <br />
+            <p class="ttt" style="background-color: black;">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit</p>
+            <h2><em>3. Modul/</em> Color und Background-color definiert für Body sowie definierte
+                Background im aktuellen Modul</h2>
+            <div><strong>1. Element/</strong> Textelement ohne Eigenschaften <br />Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover">Hover</a> <strong><a href="#" class="hover">Hover</a></strong> <a
+                    href="#" class="hover" style="text-decoration: none;">Hover</a> <i><a href="#" class="hover"
+                        style="text-decoration: none;">Hover</a></i> <a href="#"
+                    style="text-decoration: none; color: black;">Hover</a>
+                Amet cursus sit amet dictum sit. Massa sed elementum tempus egestas sed sed risus. Donec et odio
+                pellentesque diam volutpat commodo sed egestas egestas. Quis risus sed vulputate odio ut.
+                Ultricies mi
+                eget mauris pharetra et ultrices. Magnis dis parturient montes nascetur ridiculus. Nulla
+                facilisi cras
+                fermentum odio eu feugiat pretium nibh. Faucibus in ornare quam viverra orci. Mauris vitae
+                ultricies leo
+                integer malesuada. A iaculis at erat pellentesque. Vivamus at augue eget arcu dictum varius duis
+                at
+                consectetur. Urna molestie at elementum eu.</div>
+            <div class="small">Font-size: 6px, font-weight: 300; Geprüft wird aber auch noch auf die ratio mit den
+                Farben aus den jeweiligen Kontrastmodi, das muss mindestens bei 4.5 liegen</div>
+            <h3 class="colorDiv">2. Element/ Color definiert aktuelles div <a href="#" class="hover colorDiv">Hover</a>
+            </h3>
+            <h3 class="hintergrundfarbe">3. Element/ Background-color im aktuellen Element <a href="#"
+                    class="hover hintergrundfarbe">Hover</a></h3>
+            <h3 class="hintergrundfarbe colorDiv">4. Element/ Background-color und Color im aktuellen Element
+                definiert <a href="#" class="hover hintergrundfarbe colorDiv">Hover</a></h3>
+            <h3 class="backgroundDiv">5. Element/Background statt Background-color im aktuellen Element gesetzt <a
+                    href="#" class="hover backgroundDiv">Hover</a></h3>
+            <h3 class="backgroundDiv colorDiv">6. Element/ Background statt Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover backgroundDiv colorDiv">Hover</a></h3>
+            <h3 style="color: cyan;">6. Element/ Background statt Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover backgroundDiv colorDiv">Hover</a></h3>
+            <h3 class="colorTransparenz ">7. Element/ Transparenz Color für aktuelles Element definiert <a href="#"
+                    class="hover colorTransparenz ">Hover</a></h3>
+            <h3 class="tansparenzElementB ">8. Element/ Transparenz Background-color für aktuelles Element definiert <a
+                    href="#" class="hover tansparenzElementB">Hover</a></h3>
+            <h3 class="tansparenzElementB colorDiv">9. Element/ Transparenz Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover tansparenzElementB colorDiv">Hover</a></h3>
+            <h3 class="tansparenzElement">10. Element/ Transparenz Background im aktuelles Element <a href="#"
+                    class="hover tansparenzElement">Hover</a></h3>
+            <h3 class="tansparenzElement colorDiv">11. Element/ Transparenz Background und Color im aktuellen
+                Element definiert <a href="#" class="hover tansparenzElement colorDiv">Hover</a></h3>
+            <h3 class="colorHsla"> 12. Element/ Transparenz Color hsla für aktuelles Element definiert <a href="#"
+                    class="hover colorHsla">Hover</a></h3>
+            <h3 class="colorHslaB">13. Element/ Transparenz Background-color hsla für aktuelles Element definiert <a
+                    href="#" class="hover colorHslaB">Hover</a></h3>
+            <h3 class="colorHslaB colorDiv">14. Element/ Transparenz Background-color hsla und Color für aktuelles
+                Element
+                definiert <a href="#" class="hover colorHslaB colorDiv">Hover</a></h3>
+            <h3 class="colorHslaBackground">15. Element/ Transparenz Background hsla für aktuelles Element definiert <a
+                    href="#" class="hover colorHslaBackground">Hover</a></h3>
+            <h3 class="colorHslaBackground colorDiv">16. Element/ Transparenz Background hsla und Color für aktuelles
+                Element definiert <a href="#" class="hover colorHslaBackground colorDiv">Hover</a></h3>
+            <h3>17. Element/ Background als Farbpattern gesetzt:</h3>
+            <div class="farbPattern">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern">Hover</a></div>
+            <h3>18. Element/ Background als Farbpattern und Background-color gesetzt:</h3>
+            <div class="farbPattern farbPatternBunt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern farbPatternBunt">Hover</a></div>
+            <h3>19. Element/ Background als Farbpattern, Background-color und Color gesetzt</h3>
+            <div class="farbPattern farbPatternBunt farbPatternColor">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern farbPatternBunt farbPatternColor">Hover</a></div>
+            <h3>20. Element/ Pattern als Background gesetzt mit Backgound-color und Color, Schrift mit Color und
+                Transparenz abgesetzt
+            </h3>
+            <div class="farbPattern farbPatternBunt farbPatternColor">
+                <p class="patterntansparenz"><strong>20.a Element/</strong> Transparenz als Background-color <a href="#"
+                        class="hover ">Hover</a></p>
+                <p class="patterntansparenzB"><strong>20.b Element/</strong> Transparenz als Background <a href="#"
+                        class="hover ">Hover</a></p>
+                <p class="patterntansparenzHsla"><strong>20.c Element/</strong> Transparenz als Background-color hsla <a
+                        href="#" class="hover ">Hover</a></p>
+                <p class="patterntansparenzHslaB"><strong>20.d Element/</strong> Transparenz als Background hsla <a
+                        href="#" class="hover ">Hover</a></p>
+            </div>
+            <div>
+                <h3>21. Schriftgrafiken mit transparentem Hintergrund</h3>
+                <img src="../img/Schriftgrafik_groß.png" width="49%">
+                <img src="../img/Schriftgrafik_v2_groß.png" width="49%">
+            </div>
+            <br />
+        </div>
+        <br />
+        <div class="backgroundImg">
+            <br />
+            <p class="ttt" style="background-color: black;">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit</p>
+            <h2><em>4. Modul/</em> Color und Background-color definiert für Body, Bild als Background-Img in der div
+            </h2>
+            <div><strong>1. Element/</strong> Textelement ohne Eigenschaften <br />Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover">Hover</a> <strong><a href="#" class="hover">Hover</a></strong> <a
+                    href="#" class="hover" style="text-decoration: none;">Hover</a> <i><a href="#" class="hover"
+                        style="text-decoration: none;">Hover</a></i> <a href="#"
+                    style="text-decoration: none; color: black;">Hover</a>
+                Amet cursus sit amet dictum sit. Massa sed elementum tempus egestas sed sed risus. Donec et odio
+                pellentesque diam volutpat commodo sed egestas egestas. Quis risus sed vulputate odio ut.
+                Ultricies mi
+                eget mauris pharetra et ultrices. Magnis dis parturient montes nascetur ridiculus. Nulla
+                facilisi cras
+                fermentum odio eu feugiat pretium nibh. Faucibus in ornare quam viverra orci. Mauris vitae
+                ultricies leo
+                integer malesuada. A iaculis at erat pellentesque. Vivamus at augue eget arcu dictum varius duis
+                at
+                consectetur. Urna molestie at elementum eu.</div>
+            <div class="small">Font-size: 6px, font-weight: 300; Geprüft wird aber auch noch auf die ratio mit den
+                Farben aus den jeweiligen Kontrastmodi, das muss mindestens bei 4.5 liegen</div>
+            <h3 class="colorDiv">2. Element/ Color definiert aktuelles Element <a href="#"
+                    class="hover colorDiv">Hover</a>
+            </h3>
+            <h3 class="hintergrundfarbe">3. Element/ Background-color im aktuellen Element <a href="#"
+                    class="hover hintergrundfarbe">Hover</a></h3>
+            <h3 class="hintergrundfarbe colorDiv">4. Element/ Background-color und Color im aktuellen Element
+                definiert <a href="#" class="hover hintergrundfarbe colorDiv">Hover</a></h3>
+            <h3 class="backgroundDiv">5. Element/Background statt Background-color im aktuellen Element gesetzt <a
+                    href="#" class="hover backgroundDiv">Hover</a></h3>
+            <h3 class="backgroundDiv colorDiv">6. Element/ Background statt Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover backgroundDiv colorDiv">Hover</a></h3>
+            <h3 style="color: cyan;">6. Element/ Background statt Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover backgroundDiv colorDiv">Hover</a></h3>
+            <h3 class="colorTransparenz ">7. Element/ Transparenz Color für aktuelles Element definiert <a href="#"
+                    class="hover colorTransparenz ">Hover</a></h3>
+            <h3 class="tansparenzElementB ">8. Element/ Transparenz Background-color für aktuelles Element definiert <a
+                    href="#" class="hover tansparenzElementB">Hover</a></h3>
+            <h3 class="tansparenzElementB colorDiv">9. Element/ Transparenz Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover tansparenzElementB colorDiv">Hover</a></h3>
+            <h3 class="tansparenzElement">10. Element/ Transparenz Background im aktuelles Element <a href="#"
+                    class="hover tansparenzElement">Hover</a></h3>
+            <h3 class="tansparenzElement colorDiv">11. Element/ Transparenz Background und Color im aktuellen
+                Element definiert <a href="#" class="hover tansparenzElement colorDiv">Hover</a></h3>
+            <h3 class="colorHsla"> 12. Element/ Transparenz Color hsla für aktuelles Element definiert <a href="#"
+                    class="hover colorHsla">Hover</a></h3>
+            <h3 class="colorHslaB">13. Element/ Transparenz Background-color hsla für aktuelles Element definiert <a
+                    href="#" class="hover colorHslaB">Hover</a></h3>
+            <h3 class="colorHslaB colorDiv">14. Element/ Transparenz Background-color hsla und Color für aktuelles
+                Element
+                definiert <a href="#" class="hover colorHslaB colorDiv">Hover</a></h3>
+            <h3 class="colorHslaBackground">15. Element/ Transparenz Background hsla für aktuelles Element definiert <a
+                    href="#" class="hover colorHslaBackground">Hover</a></h3>
+            <h3 class="colorHslaBackground colorDiv">16. Element/ Transparenz Background hsla und Color für aktuelles
+                Element definiert <a href="#" class="hover colorHslaBackground colorDiv">Hover</a></h3>
+            <h3>17. Element/ Background als Farbpattern gesetzt:</h3>
+            <div class="farbPattern">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi
+                blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern">Hover</a></div>
+            <h3>18. Element/ Background als Farbpattern und Background-color gesetzt:</h3>
+            <div class="farbPattern farbPatternBunt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas sed sed risus pretium. Porttitor
+                massa id neque aliquam vestibulum
+                morbi blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern farbPatternBunt">Hover</a></div>
+            <h3>19. Element/ Background als Farbpattern, Background-color und Color gesetzt</h3>
+            <div class="farbPattern farbPatternBunt farbPatternColor">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas sed sed risus pretium.
+                Porttitor massa id neque aliquam vestibulum
+                morbi blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern farbPatternBunt farbPatternColor">Hover</a></div>
+            <h3>20. Element/ Pattern als Background gesetzt mit Backgound-color und Color, Schrift mit Color und
+                Transparenz abgesetzt
+            </h3>
+            <div class="farbPattern farbPatternBunt farbPatternColor">
+                <p class="patterntansparenz"><strong>20.a Element/</strong> Transparenz als Background-color <a href="#"
+                        class="hover ">Hover</a></p>
+                <p class="patterntansparenzB"><strong>20.b Element/</strong> Transparenz als Background <a href="#"
+                        class="hover ">Hover</a></p>
+                <p class="patterntansparenzHsla"><strong>20.c Element/</strong> Transparenz als Background-color hsla <a
+                        href="#" class="hover ">Hover</a></p>
+                <p class="patterntansparenzHslaB"><strong>20.d Element/</strong> Transparenz als Background hsla <a
+                        href="#" class="hover ">Hover</a></p>
+            </div>
+            <div>
+                <h3>21. Schriftgrafiken mit transparentem Hintergrund</h3>
+                <img src="../img/Schriftgrafik_groß.png" width="49%">
+                <img src="../img/Schriftgrafik_v2_groß.png" width="49%">
+            </div>
+            <br />
+        </div>
+        <br />
+        <div class="backgroundImgB">
+            <br />
+            <p class="ttt" style="background-color: black;">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit</p>
+            <h2><em>5. Modul/</em> Color und Background-color definiert für Body, Bild als Background in der div</h2>
+            <div><strong>1. Element/</strong> Textelement ohne Eigenschaften <br />Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas
+                sed sed risus pretium. Porttitor massa id neque aliquam vestibulum
+                morbi blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover">Hover</a> <strong><a href="#" class="hover">Hover</a></strong> <a
+                    href="#" class="hover" style="text-decoration: none;">Hover</a> <i><a href="#" class="hover"
+                        style="text-decoration: none;">Hover</a></i> <a href="#"
+                    style="text-decoration: none; color: black;">Hover</a>
+                Amet cursus sit amet dictum sit. Massa sed elementum tempus egestas sed sed risus. Donec et odio
+                pellentesque diam volutpat commodo sed egestas egestas. Quis risus sed vulputate odio ut.
+                Ultricies mi eget mauris pharetra et ultrices. Magnis dis parturient montes nascetur ridiculus. Nulla
+                facilisi cras fermentum odio eu feugiat pretium nibh. Faucibus in ornare quam viverra orci. Mauris vitae
+                ultricies leo integer malesuada. A iaculis at erat pellentesque. Vivamus at augue eget arcu dictum
+                varius duis
+                at consectetur. Urna molestie at elementum eu.</div>
+            <div class="small">Font-size: 6px, font-weight: 300; Geprüft wird aber auch noch auf die ratio mit den
+                Farben aus den jeweiligen Kontrastmodi, das muss mindestens bei 4.5 liegen</div>
+            <h3 class="colorDiv">2. Element/ Color definiert aktuelles div <a href="#" class="hover colorDiv">Hover</a>
+            </h3>
+            <h3 class="hintergrundfarbe">3. Element/ Background-color im aktuellen Element <a href="#"
+                    class="hover hintergrundfarbe">Hover</a></h3>
+            <h3 class="hintergrundfarbe colorDiv">4. Element/ Background-color und Color im aktuellen Element
+                definiert <a href="#" class="hover hintergrundfarbe colorDiv">Hover</a></h3>
+            <h3 class="backgroundDiv">5. Element/Background statt Background-color im aktuellen Element gesetzt <a
+                    href="#" class="hover backgroundDiv">Hover</a></h3>
+            <h3 class="backgroundDiv colorDiv">6. Element/ Background statt Background-color und Color im aktuellen
+                Element definiert <a href="#" class="hover backgroundDiv colorDiv">Hover</a></h3>
+            <h3 style="color: cyan;">6. Element/ Background statt Background-color und Color im aktuellen
+                Element
+                definiert <a href="#" class="hover backgroundDiv colorDiv">Hover</a></h3>
+            <h3 class="colorTransparenz ">7. Element/ Transparenz Color für aktuelles Element definiert <a href="#"
+                    class="hover colorTransparenz ">Hover</a></h3>
+            <h3 class="tansparenzElementB ">8. Element/ Transparenz Background-color für aktuelles Element definiert <a
+                    href="#" class="hover tansparenzElementB">Hover</a></h3>
+            <h3 class="tansparenzElementB colorDiv">9. Element/ Transparenz Background-color und Color im aktuellen
+                Element definiert <a href="#" class="hover tansparenzElementB colorDiv">Hover</a></h3>
+            <h3 class="tansparenzElement">10. Element/ Transparenz Background im aktuelles Element <a href="#"
+                    class="hover tansparenzElement">Hover</a></h3>
+            <h3 class="tansparenzElement colorDiv">11. Element/ Transparenz Background und Color im aktuellen
+                Element definiert <a href="#" class="hover tansparenzElement colorDiv">Hover</a></h3>
+            <h3 class="colorHsla"> 12. Element/ Transparenz Color hsla für aktuelles Element definiert <a href="#"
+                    class="hover colorHsla">Hover</a></h3>
+            <h3 class="colorHslaB">13. Element/ Transparenz Background-color hsla für aktuelles Element definiert <a
+                    href="#" class="hover colorHslaB">Hover</a></h3>
+            <h3 class="colorHslaB colorDiv">14. Element/ Transparenz Background-color hsla und Color für aktuelles
+                Element definiert <a href="#" class="hover colorHslaB colorDiv">Hover</a></h3>
+            <h3 class="colorHslaBackground">15. Element/ Transparenz Background hsla für aktuelles Element definiert <a
+                    href="#" class="hover colorHslaBackground">Hover</a></h3>
+            <h3 class="colorHslaBackground colorDiv">16. Element/ Transparenz Background hsla und Color für aktuelles
+                Element definiert <a href="#" class="hover colorHslaBackground colorDiv">Hover</a></h3>
+            <h3>17. Element/ Background als Farbpattern gesetzt:</h3>
+            <div class="farbPattern">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Egestas sed sed risus pretium. Porttitor massa id neque
+                aliquam vestibulum
+                morbi blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern">Hover</a></div>
+            <h3>18. Element/ Background als Farbpattern und Background-color gesetzt:</h3>
+            <div class="farbPattern farbPatternBunt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas sed sed risus pretium. Porttitor
+                massa id neque aliquam vestibulum
+                morbi blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern farbPatternBunt">Hover</a></div>
+            <h3>19. Element/ Background als Farbpattern, Background-color und Color gesetzt</h3>
+            <div class="farbPattern farbPatternBunt farbPatternColor">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas sed sed risus pretium.
+                Porttitor massa id neque aliquam vestibulum
+                morbi blandit. Sagittis purus sit amet volutpat consequat. Leo a diam sollicitudin tempor id eu. Magna
+                fermentum iaculis eu non diam phasellus. Nunc pulvinar sapien et ligula ullamcorper malesuada
+                proin. <a href="#" class="hover farbPattern farbPatternBunt farbPatternColor">Hover</a></div>
+            <h3>20. Element/ Pattern als Background gesetzt mit Backgound-color und Color, Schrift mit Color und
+                Transparenz abgesetzt
+            </h3>
+            <div class="farbPattern farbPatternBunt farbPatternColor">
+                <p class="patterntansparenz"><strong>20.a Element/</strong> Transparenz als Background-color <a href="#"
+                        class="hover ">Hover</a></p>
+                <p class="patterntansparenzB"><strong>20.b Element/</strong> Transparenz als Background <a href="#"
+                        class="hover ">Hover</a></p>
+                <p class="patterntansparenzHsla"><strong>20.c Element/</strong> Transparenz als Background-color hsla <a
+                        href="#" class="hover ">Hover</a></p>
+                <p class="patterntansparenzHslaB"><strong>20.d Element/</strong> Transparenz als Background hsla <a
+                        href="#" class="hover ">Hover</a></p>
+            </div>
+            <div>
+                <h3>21. Schriftgrafiken mit transparentem Hintergrund</h3>
+                <img src="../img/Schriftgrafik_groß.png" width="49%">
+                <img src="../img/Schriftgrafik_v2_groß.png" width="49%">
+            </div>
+            <br />
+        </div>
+        <br />
+        <div>
+            <h2><em>6. Modul/</em> Image-Text</h2>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO "><strong>1. Element/</strong> Bild mit Textelement ohne Eigenschaften <a href="#"
+                        class="hover">Hover</a></span>
+                <span class="spanIMG colorDiv"><strong>2. Element/</strong> Color definiert aktuelles Element <a
+                        href="#" class="hover">Hover</a></span>
+            </div>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO hintergrundfarbe"><strong>3. Element/</strong> Background-color gesetzt <a
+                        href="#" class="hover hintergrundfarbe">Hover</a></span>
+                <span class="spanIMG hintergrundfarbe colorDiv"><strong>4. Element/</strong> Background-color und Color
+                    gesetzt <a href="#" class="hover hintergrundfarbe colorDiv">Hover</a></span>
+            </div>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO backgroundDiv"><strong>5. Element/</strong> Background gesetzt <a href="#"
+                        class="hover backgroundDiv">Hover</a></span>
+                <span class="spanIMG backgroundDiv colorDiv"><strong>6. Element/</strong> Background und Color gesetzt
+                    <a href="#" class="hover backgroundDiv colorDiv">Hover</a></span>
+            </div>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO colorTransparenz "><strong>7. Element/</strong> Transparenz Color für aktuelles
+                    Element definiert<a href="#" class="hover colorTransparenz ">Hover</a></span>
+                <span class="spanIMG tansparenzElementB"><strong>8. Element/</strong> Transparenz Background-color
+                    gesetzt
+                    <a href="#" class="hover tansparenzElementB">Hover</a></span>
+            </div>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO tansparenzElementB colorDiv"><strong>9. Element/</strong> Tansparenz
+                    Background-color und Color definiert<a href="#"
+                        class="hover tansparenzElementB colorDiv">Hover</a></span>
+                <span class="spanIMG tansparenzElement"><strong>10. Element/</strong> Transparenz Background gesetzt <a
+                        href="#" class="hover tansparenzElement">Hover</a></span>
+            </div>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO tansparenzElement colorDiv"><strong>11. Element/</strong> Transparenz Background
+                    und
+                    Color gesetzt<a href="#" class="hover tansparenzElement colorDiv">Hover</a></span>
+                <span class="spanIMG colorHsla"><strong>12. Element/</strong> Transparenz Color hsla für aktuelles
+                    Element
+                    gesetzt <a href="#" class="hover colorHsla">Hover</a></span>
+            </div>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO colorHslaB"><strong>13. Element/</strong> Transparenz Background-color hsla
+                    gesetzt<a href="#" class="hover colorHslaB">Hover</a></span>
+                <span class="spanIMG colorHslaB colorDiv"><strong>14. Element/</strong> Transparenz Background-color
+                    hsla
+                    und Color gesetzt <a href="#" class="hover colorHslaB colorDiv">Hover</a></span>
+            </div>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO colorHslaBackground"><strong>15. Element/</strong> Transparenz Background hsla
+                    gesetzt<a href="#" class="hover colorHslaBackground">Hover</a></span>
+                <span class="spanIMG colorHslaBackground colorDiv"><strong>16. Element/</strong> Transparenz Background
+                    hsla und Color
+                    gesetzt <a href="#" class="hover colorHslaBackground colorDiv">Hover</a></span>
+            </div>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO farbPattern"><strong>17. Element/</strong> Background als Farbpattern gesetzt
+                    gesetzt<a href="#" class="hover farbPattern">Hover</a></span>
+                <span class="spanIMG farbPattern farbPatternBunt"><strong>18. Element/</strong> Background als
+                    Farbpattern und Background-color
+                    gesetzt <a href="#" class="hover farbPattern farbPatternBunt">Hover</a></span>
+            </div>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO farbPattern farbPatternBunt farbPatternColor"><strong>19. Element/</strong>
+                    Background als Farbpattern, Background-color und Color gesetzt gesetzt
+                    gesetzt<a href="#" class="hover farbPattern farbPatternBunt farbPatternColor">Hover</a></span>
+            </div>
+            <br />
+            <h3>20. Element/ Pattern als Background gesetzt mit Backgound-color und Color, Schrift mit Color und
+                Transparenz abgesetzt</h3>
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO farbPattern farbPatternBunt">
+                    <div class="patterntansparenz"><strong>20a. Element/</strong> Transparenz als Background-color
+                        gesetzt <a href="#" class="hover farbPattern farbPatternBunt">Hover</a></div><br />
+                </span>
+                <span class="spanIMG farbPattern farbPatternBunt">
+                    <div class="patterntansparenzB"><strong>20b. Element/</strong> Transparenz als Background
+                        gesetzt <a href="#" class="hover farbPattern farbPatternBunt">Hover</a></div><br />
+                </span>
+            </div>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMGO farbPattern farbPatternBunt">
+                    <div class="patterntansparenzHsla"><strong>20c. Element/</strong> Transparenz als Background-color
+                        hsla
+                        gesetzt <a href="#" class="hover farbPattern farbPatternBunt">Hover</a></div><br />
+                </span>
+                <span class="spanIMG farbPattern farbPatternBunt">
+                    <div class="patterntansparenzHslaB"><strong>20d. Element/</strong> Transparenz als Background hsla
+                        gesetzt <a href="#" class="hover farbPattern farbPatternBunt">Hover</a></div><br />
+                </span>
+            </div>
+            <br />
+            <h3>21. Element/ Bild mit Schriftgrafik</h3>
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMG colorDiv"><img src="../img/Schriftgrafik_groß_lang.png" width="100%"></span>
+            </div>
+            <br />
+            <div class="bildmitbildunterschrift">
+                <img src="../img/PANO_20210905_140516_klein.jpg" width="100%" alt="wandern">
+                <span class="spanIMG colorDiv"><img src="../img/Schriftgrafik_v2_groß_lang.png" width="100%"></span>
+            </div>
+            <br />
+        </div>
+    </main>
+        <footer id="legal">
+                <ul>
+                        <li>
+                                <a href="https://gpii.de/legal/de/impressum.html">Impressum</a>
+                        </li>
+                        <li>
+                                <a href="https://gpii.de/legal/de/datenschutz.html">Datenschutz</a>
+                        </li>
+                </ul>
+        </footer>
+</body>
+
+
+</html>
