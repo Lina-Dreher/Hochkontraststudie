@@ -1,29 +1,14 @@
 # Hochkontraststudie
-Die Testwebsite wurde im Rahmen der Bachelorarbeit Hochkontrast-Modi im Web - Analyse und Entwiclung von Simulationswerkzeugen zur UNerstützung von Barrierefreiheitsprüfungen erstellt.
+Dieses Projekt stellt Bookmarklets zur Simulation von Kontrastmodi aus verschiedenen Betriebssystemen in verschiedenen Browsern, sowie einem Bookmarklet zum Testen auf Kontraste bereit. Getestet können diese an der beigefügten Testwebsite.
+
+Die Testwebsite wurde im Rahmen der Bachelorarbeit Hochkontrast-Modi im Web - Analyse und Entwiclung von Simulationswerkzeugen zur Unerstützung von Barrierefreiheitsprüfungen erstellt.
 
 Sie dient zum Demonstrieren der Auswirkungen von Kontrastmodi in verschiedenen Webbrowsern und Betriebssystemen. 
 
-Auch das bereits existierende Bookmarklet Vorder- und Hintergrundfarbe definiert und die später selbst entwickelten Bookmarklets werden an der Testwebsite getestet und validiert.
+Auch das bereits existierende Bookmarklet Vorder- und Hintergrundfarbe definiert und die später selbst entwickelten Bookmarklets wurden an der Testwebsite getestet und validiert.
 
 ## Getting started
-Folgende Voraussetzungen müssen erfüllt sein, damit das Projekt auf dem PC läuft:
-- Git muss installiert sein
-- Am besten Visual Studio Code installierten
-
-Jetzt kann das Projekt aus GitLab geklont werden (am besten per Visual Studio Code öffnen)
-
-Die Seite kann über den VS Code Server oder per locallhost geöffnet werden.
-Die Bookmarklets funktionieren nur über localhost.
-
-## Installation
- Projket Gitlab: https://gitlab.mi.hdm-stuttgart.de/ld038/hochkontraststudie
-
-```
-cd existing_repo
-git remote add origin https://gitlab.mi.hdm-stuttgart.de/ld038/hochkontraststudie.git
-git branch -M main
-git push -uf origin main
-```
+Zu finden ist das Projekt hier: https://github.com/Lina-Dreher/Hochkontraststudie.git
 
 # Projektinformationen
 Jede HTML-Seite hat eine andere Definition der Vorder- und Hintergrundfarben im Body. Für eine möglichst gute Vergleichbarkeit sind die Elemente aller Seiten immer in derselben Reihenfolge aufgebaut. Außerdem haben die Elemente jeweils auch unterschiedliche Angaben zu Vorder-, Hintergrundfarben und Transparenzen. 
